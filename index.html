@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator | Bianca Bera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                                                         <!-- Título -->
+<header>
+    <h1>MEME GENERATOR</h1>
+</header>
+
+    <section>
+        <h3 id="insira-texto">Insira seu texto aqui:</h3>
+<!-- Para limitar os caracteres encontrei o meio de inserir dentro do input o atributo 'maxlength' e seu valor de números que serão limitados http://penta.ufrgs.br/edu/forms/tut211.html#:~:text=O%20valor%20default%20%C3%A9%2020,para%20o%20campo%20em%20quest%C3%A3o. -->
+            <input type="text" id="text-input" maxlength="60">
+
+        <h3 id ="insira-foto">Insira sua foto aqui:</h3>
+            <input type="file" accept="image/*" id="meme-insert">
+    
+    </section>
+                                                      <!-- container -->
+    <section>
+        <div id="meme-image-container">
+            <img id="meme-image" src="script.js">
+                <div id="meme-text"></div>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>

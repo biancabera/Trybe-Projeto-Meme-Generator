@@ -1,0 +1,35 @@
+body { 
+    background-color: grey;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#meme-image { 
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+#meme-text { 
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color:white;
+    font-weight: 500px;
+    text-shadow: 5px 5px 5px black;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    margin-top: 500px;
+}
+
+#meme-image-container { 
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
